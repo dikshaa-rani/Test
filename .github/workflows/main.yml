@@ -1,0 +1,11 @@
+name: Demo
+
+on: push
+
+jobs:
+  master:
+    runs-on: ubuntu-latest
+    steps: 
+    - name : Execute script
+      run: echo "Hello World"
+  
